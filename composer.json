@@ -1,0 +1,21 @@
+{
+    "name": "dangx/mvc",
+    "authors": [
+        {
+            "name": "phuong",
+            "email": "dangxuong2000@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.23",
+        "illuminate/events": "^8.23",
+        "jenssegers/blade": "*",
+        "phroute/phroute": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {"App\\":"app/",
+            "Commons\\": "commons/",
+            "Controllers\\": "controllers/"
+        }
+    }
+}
